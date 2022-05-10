@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	}
+.profilesection{
+	border-top: 1px white;
+	border-bottom: 1px white;
+	width: 100%;
+}
+.maptracking{
+	margin-top: 50px;
+	margin-left: 250px;
+}
+.profilebg1{
+	background: url(../img/profile-background.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	background-attachment: fixed;
+	color: #cfcfcf;
+	height: 200px;
+
+}
+#map{
+	margin: 100px;
+	width: 1300px;
+	height: 500px;
+}
+.profilebg1 h2{
+	font-size: 52px;
+	color: #260816;
+	font-family: 'IM Fell English', serif;
+	font-weight: 800;
+	position: relative;
+	top: 30%;
+	left: 45%;
+}
+.ticket {
+	margin: auto;
+	display: flex;
+	margin-top: 20px;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.br{
+	font-family: 'IM Fell English', serif;
+	font-weight: 600;
+}
+.left {
+	display: flex;
+}
+
+.image {
+	height: 250px;
+	width: 250px;
+	background-image: url("../img/travelbus.jpg");
+	background-size: contain;
+	opacity: 0.85;
+}
+.secname{
+
+}
+.admit-one {
+	position: absolute;
+	color: darkgray;
+	height: 250px;
+	padding: 0 10px;
+	letter-spacing: 0.15em;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	writing-mode: vertical-rl;
+	transform: rotate(-180deg);
+}
+
+.admit-one span:nth-child(2) {
+	color: white;
+	font-weight: 700;
+}
+
+.left .ticket-number {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 5px;
+}
+
+.ticket-info {
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.date {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 5px 0;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.date span {
+	width: 100px;
+}
+
+.date span:first-child {
+	text-align: left;
+}
+
+.date span:last-child {
+	text-align: right;
+}
+
+.date .june-29 {
+	color: #d83565;
+	font-size: 20px;
+}
+
+.show-name {
+	font-size: 32px;
+	font-family: "Nanum Pen Script", cursive;
+	color: #d83565;
+}
+
+.show-name h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin-top: 10px;
+	color: #4a437e;
+}
+.show-name h2 {
+	margin-top: 1px;
+}
+.time select{
+	background-color: white;
+  border: thin solid #04bf68;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  width: 200px;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.time {
+	padding: 10px 0;
+	color: #4a437e;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-weight: 700;
+}
+
+.time span {
+	font-weight: 400;
+	color: gray;
+}
+
+.left .time {
+	font-size: 16px;
+}
+
+
+.location {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding-top: 8px;
+	border-top: 1px solid gray;
+}
+
+.location .separator {
+	font-size: 20px;
+}
+
+.right {
+	width: 180px;
+	border-left: 1px dashed #404040;
+}
+
+.right .admit-one {
+	color: darkgray;
+}
+
+.right .admit-one span:nth-child(2) {
+	color: gray;
+}
+
+.right .right-info-container {
+	height: 250px;
+	padding: 10px 10px 10px 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.right .show-name{
+	width: 200px;
+	position: relative;
+	top: 50px;
+	left: 30px;
+}
+.right .show-name h1 {
+	font-size: 25px;
+	text-align: center;
+}
+.pricetic{
+	margin-top: 100px;
+	font-size: 32px;
+	width: 200px;
+	position: relative;
+	top: 30px;
+	margin-left: 60px;
+}
+.buybutton{
+	margin-top: 50px;
+	width: 200px;
+	height: 40px;
+	background: #04bf68;
+}
+.pricetic p{
+	font-size: 32px;
+	text-align: center;
+}
+.barcode {
+	height: 100px;
+	position: relative;
+	top: 70px;
+	left: 24%;
+}
+
+.barcode img {
+	height: 100%;
+}
+
+.right .ticket-number {
+	color: gray;
+}
+#start{
+	margin-right: 30px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 3 */
+.btn-3 {
+  background: #04bf68;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  position: relative;
+  top: 100px;
+  left: 32px;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: #04bf68;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: #04bf68;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: #04bf68;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+.clabs p{
+	font-size: 25px;
+	font-weight: 800;
+}
+.clabs span{
+	font-weight: 400;
+}
+.btnteam{
+	top: 0%;
+}
+.btnteam1{
+	top: 0%;
+}
+.btnteam1: hover{
+	top: 0%;
+	color: #04bf68;
+}
