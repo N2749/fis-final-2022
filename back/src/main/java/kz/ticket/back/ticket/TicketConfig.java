@@ -16,8 +16,7 @@ public class TicketConfig {
     CommandLineRunner ticketCommandLineRunner(TicketRepository ticketRepository) {
         return args -> {
             Ticket ticket1 = new Ticket(
-                    0,
-                    0,
+                    2,
                     1,
                     0,
                     new Date(new Date().getTime() + 1000 * 60 * 60 * 24 * 5L),
